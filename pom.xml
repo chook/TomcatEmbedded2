@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
-  <artifactId>RockyTester</artifactId>
+  <artifactId>TomcatEmbedded</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>RockyTester Maven Webapp</name>
+  <name>TomcatEmbedded Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -23,7 +23,7 @@
 
   </dependencies>
   <build>
-    <finalName>RockyTester</finalName>
+    <finalName>TomcatEmbedded</finalName>
 
     <plugins>
       <plugin>
@@ -31,8 +31,8 @@
   <artifactId>tomcat7-maven-plugin</artifactId>
   <version>2.2</version>
   <configuration>
-    <path>/</path>
-    <port>8060</port>
+    <path>/TomcatEmbedded</path>
+    <port>8080</port> <!-- Only works for tomcat7 maven plugin -->
   </configuration>
 </plugin>
   </plugins>
