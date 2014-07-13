@@ -1,0 +1,4 @@
+127.0.0.1 - - [13/Jul/2014:19:57:33 +0300] "GET / HTTP/1.1" 404 - http-bio-8080-exec-1 0
+127.0.0.1 - - [13/Jul/2014:19:57:34 +0300] "GET /TomcatEmbedded/FirstServlet HTTP/1.1" 200 3 http-bio-8080-exec-2 16
+127.0.0.1 - - [13/Jul/2014:19:57:38 +0300] "GET /TomcatEmbedded/FirstServlet?err HTTP/1.1" 500 997 http-bio-8080-exec-3 4
+127.0.0.1 - - [13/Jul/2014:19:57:38 +0300] "GET /TomcatEmbedded/FirstServlet?log HTTP/1.1" 200 3 http-bio-8080-exec-4 2
